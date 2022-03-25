@@ -10,6 +10,9 @@ namespace tpModul5_1302201138
     {
         static void Main(string[] args)
         {
+            SayaTubeVideo tube = new SayaTubeVideo("Tutorial Design By Contract - [Habib]");
+            tube.IncreasePlayCount(2);
+            tube.printVideoDetails();
         }
     }
 }
